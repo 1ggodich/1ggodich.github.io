@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    font-size: 40px;
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main{
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(5,20%);
+}
+#agh{
+    filter: blur(8px);
+}
+#b{
+    grid-row:3/4;
+    grid-column:2/5;
+    font-size: 35px;
+    text-shadow: rgb(167, 167, 167) 1px 2px;
+    z-index: 1;
+}
+#gera{
+    grid-row:4/5;
+    grid-column:2/5;
+    font-size: 70px;
+    text-shadow: rgb(167, 167, 167) 1px 2px;
+    z-index: 1;
+}
+#tata{
+    grid-row:2/3;
+    grid-column:3/4;
+    font-size: 120px;
+    text-shadow: rgb(167, 167, 167) 1px 2px;
+    z-index: 1;
+}
+.maincard{
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(5,20%);
+}
+#abc{
+    
+    grid-row:2/3;
+    grid-column:2/3;
+}
+#fed{
+    grid-row:4/5;
+    grid-column:4/5;
+}
+#cba{
+    font-size:  24px; ;
+    grid-row:2/3;
+    grid-column:4/5;
+}
+#def{
+    font-size:  24px; ;
+    grid-row:4/5;
+    grid-column:2/3;
+}
+#rlz{
+    font-size: 50px;
+}
+footer{
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 50px;
+}
+@media(max-width: 881px ){
+    header{
+        font-size: 20px;
+        height: 100px;
+    }
+
+    #tata{
+    grid-row:2/3;
+    grid-column: 3/4;
+    font-size: 70px;
+    }
+
+    #b{
+    font-size: 20px;    
+    }
+}
+
